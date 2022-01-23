@@ -177,10 +177,11 @@ body {
   left: 0;
   width: 100%;
   height: 220px;
-  background-image: url("./iPhone 11 Pro/Group 1.png");
+  background-image: url("./images/Group 1.png");
 }
 
 .header__title {
+  color: #1c2d59;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: bold;
@@ -210,6 +211,7 @@ body {
 }
 
 .header__desc-1 {
+  color: #00213c;
   margin-top: 289px;
   font-weight: 600;
   font-size: 16px;
@@ -221,6 +223,7 @@ body {
 }
 .header__desc-2,
 .header__desc-3 {
+  color: #152836;
   margin-right: auto;
   margin-left: auto;
   width: 253px;
@@ -243,8 +246,7 @@ body {
   margin-top: 23px;
   width: 249px;
 }
-
-.header__select {
+.select {
   border: none;
   /* margin-left: 23px;
   margin-top: 23px; */
@@ -253,7 +255,8 @@ body {
 
   background-color: #f93264;
 }
-.header__select > a {
+
+.select > a {
   display: block;
   height: 14px;
 
@@ -292,6 +295,7 @@ body {
 }
 
 .about-us {
+  padding-bottom: 64px;
 }
 
 .about-us__container {
@@ -402,4 +406,156 @@ body {
   position: absolute;
   bottom: -21px;
   right: 12px;
+}
+
+.about-lessons {
+  padding-top: 30px;
+  padding-bottom: 103px;
+  background-image: url("/images/Group12.png");
+  background-color: #fa3465;
+  height: 778px;
+}
+.about-lessons__container {
+  width: 295px;
+  margin: 0 auto;
+}
+
+.about-lessons__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color: #fff;
+}
+
+.about-lessons__list {
+  margin-top: 34px;
+}
+
+.about-lessons__number {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.about-lessons__item {
+  position: relative;
+}
+.about-lessons__item:not(:first-child) {
+  margin-top: 21px;
+}
+.about-lessons__text {
+  color: #ffffff;
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.about-lessons__number::after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 16px;
+  height: 1px;
+  background-color: black;
+}
+
+.black-span {
+  color: #1c2d59;
+}
+
+.about-lessons__how-work {
+  margin-top: 48px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.about-lessons__explain {
+  margin-top: 13px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.advantages {
+  padding-bottom: 20px;
+  margin-top: -80px;
+}
+
+.advantages__container {
+  width: 308px;
+  margin: 0 auto;
+}
+
+.advantages__list {
+  margin: 0 auto;
+  width: 201px;
+}
+
+.advantage__item {
+  position: relative;
+}
+.advantage__item:not(:first-child) {
+  margin-top: 26px;
+}
+.advantage-image {
+}
+
+.advantage__item-wrapper {
+  padding-left: 7px;
+  background-color: white;
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+  width: 97%;
+  height: 49px;
+}
+
+.advantage__item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.advantage__item-desc {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+
+  color: #ea557b;
+}
+.advantages__subtitle,
+.advantages__text {
+  text-align: center;
+}
+.advantages__title {
+  margin-top: 33px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+}
+.advantages__subtitle {
+  width: 292px;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.advantages__text {
+  width: 306px;
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.advantages__select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
 }
